@@ -55,11 +55,25 @@
     right: 0;
   }
 
+  .images-padhomemiddle {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
   .images {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .images-padhomelinefounder {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   hr {
@@ -142,4 +156,10 @@
     font-family: "Times New Roman", Gadget, serif;
     font-style: normal;
     font-size: 25px ! important; //to make fontsize bigger 
+ }
+
+ .home-font {
+  font-family: "Times New Roman", Gadget, serif;
+  font-style: normal;
+  font-size: 25px ! important; //to make fontsize bigger 
  }
