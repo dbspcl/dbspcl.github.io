@@ -1,6 +1,9 @@
   .content-section {
     margin-left: 260px;
     margin-right: 260px;
+    font-family: "Times New Roman", Gadget, serif;
+    font-style: normal;
+    font-size: 20px ! important;
   }
   
   .text-section-home {
