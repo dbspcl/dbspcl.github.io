@@ -58,8 +58,8 @@
   }
 
   .images-padhomemiddle {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 20px;
     padding-bottom: 5px;
   }
@@ -76,6 +76,13 @@
     padding-right: 20px;
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .images-padhomelineblood {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
   }
   .images-padhomeankh {
     padding-left: 20px;
@@ -221,8 +228,7 @@
  .home-font {
   font-family: "Times New Roman", Gadget, serif;
   font-style: normal;
-  font-size: 25px ! important;
-  background: rgb(231, 229, 229);
+  font-size: 20px ! important;
  }
  
  .chapter-title-font {
