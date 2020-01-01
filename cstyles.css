@@ -239,13 +239,3 @@
   font-style: normal;
   font-size: 20px ! important; //to make fontsize bigger 
  }
- 
- .button-img {
-  width: 130px;
-  height: 195px;
-  background: url("images/CommissionsButton.png") no-repeat;
-  margin: 50px;
-}
-.button-img:hover {
-  background: url("images/CommissionsButtonHover.png") no-repeat;
-}
