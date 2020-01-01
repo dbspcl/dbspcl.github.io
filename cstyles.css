@@ -1,10 +1,20 @@
-  .content-section {
-    margin-left: 280px;
-    margin-right: 280px;
-    font-family: "Times New Roman", Gadget, serif;
-    font-style: normal;
-    font-size: 20px ! important;
-  }
+.content-section {
+  margin-left: 260px;
+  margin-right: 260px;
+  font-family: "Times New Roman", Gadget, serif;
+  font-style: normal;
+  font-size: 20px ! important;
+  text-align: justify;
+}
+
+.chapter-section {
+  margin-left: 340px;
+  margin-right: 340px;
+  font-family: "Times New Roman", Gadget, serif;
+  font-style: normal;
+  font-size: 20px ! important;
+  text-align: justify;
+}
   
   .text-section-home {
     background: rgb(231, 229, 229);
@@ -61,8 +71,8 @@
   }
 
   .images-padhomemiddle {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 20px;
     padding-bottom: 5px;
   }
@@ -136,14 +146,17 @@
 
   .images-padbuttonthorns {
     padding-top: 0px;
+    padding-bottom: 5px;
   }
 
   .images-padbuttonankh {
     padding-top: 0px;
+    padding-bottom: 5px;
   }
 
   .images-padbuttonbones {
     padding-top: 0px;
+    padding-bottom: 5px;
   }
 
   hr {
