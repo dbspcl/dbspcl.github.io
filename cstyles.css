@@ -216,6 +216,10 @@
     background-color: #b8bbbd;
   }
 
+  .dropdown-submenu {
+    background-color: #b8bbbd;
+  }
+
   .dropdown-item {
     background-color: #b8bbbd;
   }
@@ -252,3 +256,13 @@
   font-style: normal;
   font-size: 20px ! important; //to make fontsize bigger 
  }
+
+ .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
