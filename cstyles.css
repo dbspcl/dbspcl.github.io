@@ -1,6 +1,6 @@
   .content-section {
-    margin-left: 260px;
-    margin-right: 260px;
+    margin-left: 280px;
+    margin-right: 280px;
     font-family: "Times New Roman", Gadget, serif;
     font-style: normal;
     font-size: 20px ! important;
@@ -239,3 +239,13 @@
   font-style: normal;
   font-size: 20px ! important; //to make fontsize bigger 
  }
+ 
+ .button-img {
+  width: 130px;
+  height: 195px;
+  background: url("images/CommissionsButton.png") no-repeat;
+  margin: 50px;
+}
+.button-img:hover {
+  background: url("images/CommissionsButtonHover.png") no-repeat;
+}
