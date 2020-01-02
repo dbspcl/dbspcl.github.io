@@ -272,3 +272,23 @@
   left: 100%;
   margin-top: -1px;
 }
+
+@media (max-width: 1200px) {
+  .content-section {
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+  .chapter-section {
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+  .leftbar {
+    width: 150px;
+  }
+  .rightbar {
+    width: 150px;
+  }
+  .sticky.is-sticky {
+    width: 150px;
+  }
+}
