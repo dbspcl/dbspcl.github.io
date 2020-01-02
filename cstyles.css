@@ -122,6 +122,12 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+  .images-padcreditsline {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
 
   .images-padchesspieces {
     padding-left: 20px;
