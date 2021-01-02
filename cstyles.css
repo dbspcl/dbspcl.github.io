@@ -165,6 +165,26 @@
     padding-bottom: 5px;
   }
 
+  .images-previous {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 250px;
+    float: left;
+  }
+
+  .images-next {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-right: 250px;
+    float: right;
+  }
+
+  .images-previousnextsingle {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center
+  }
+
   hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
