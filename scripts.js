@@ -1,34 +1,18 @@
-$(document).ready(function() {
-  // Custom 
-  var stickyToggle = function(sticky, stickyWrapper, scrollElement) {
-    var stickyHeight = sticky.outerHeight();
-    var stickyTop = stickyWrapper.offset().top;
-    if (scrollElement.scrollTop() >= (stickyTop - 60)){
-      stickyWrapper.height(stickyHeight);
-      sticky.addClass("is-sticky");
-    }
-    else{
-      sticky.removeClass("is-sticky");
-      stickyWrapper.height('auto');
-    }
-  };
-  
-  // Find all data-toggle="sticky-onscroll" elements
-  $('[data-toggle="sticky-onscroll"]').each(function() {
-    var sticky = $(this);
-    var stickyWrapper = $('<div>').addClass('sticky-wrapper'); // insert hidden element to maintain actual top offset on page
-    sticky.before(stickyWrapper);
-    sticky.addClass('sticky');
-    
-    // Scroll & resize events
-    $(window).on('scroll.sticky-onscroll resize.sticky-onscroll', function() {
-      stickyToggle(sticky, stickyWrapper, $(this));
-    });
-    
-    // On page load
-    stickyToggle(sticky, stickyWrapper, $(window));
-  });
-});
+function setScrollSize(){
+
+  var vBannerImage = document.getElementById("top-banner");
+  var vHeight = vBannerImage.height;
+  var vScrollHeight = window.innerHeight - vHeight - 75.0;
+
+  var vNavimg = document.getElementsByClassName("midpanel");
+
+  for(var i=0;i<vNavimg.length;i++){
+      vNavimg[i].style.height = vScrollHeight+"px";
+  }
+}
+
+window.addEventListener("resize", setScrollSize);
+setScrollSize();
 
 $('.dropdown-submenu > a').on("click", function(e) {
   var submenu = $(this);
@@ -41,4 +25,3 @@ $('.dropdown').on("hidden.bs.dropdown", function() {
   // hide any open menus when parent closes
   $('.dropdown-menu.show').removeClass('show');
 });
-

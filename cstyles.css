@@ -27,19 +27,7 @@
   .container-fluid {
     padding:0;
   }
-  
-  .make-me-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 0 15px;
-  }
-  
-  .sticky.is-sticky {
-      top: 60px;
-      position: fixed;
-      width: 250px;
-  }
+
 
   /* Ignore This, just coloring */
   body {
@@ -47,6 +35,10 @@
     padding-bottom: 10px;
     padding-left: 0px;
     padding-right: -20px;
+    font-family: "Times New Roman", Gadget, serif;
+    font-style: normal;
+    font-size: 20px ! important;
+    text-align: justify;
   }
   
   article {
@@ -324,6 +316,18 @@
   margin-top: -1px;
 }
 
+.midpanel {
+  height: calc(100vh - 320px);
+  overflow-y: scroll;
+}
+
+.leftpanel {
+  width: 50px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
 @media (max-width: 1200px) {
   .content-section {
     margin-left: 160px;
@@ -337,9 +341,6 @@
     width: 150px;
   }
   .rightbar {
-    width: 150px;
-  }
-  .sticky.is-sticky {
     width: 150px;
   }
 }
@@ -357,9 +358,6 @@
     width: 0px;
   }
   .rightbar {
-    width: 0px;
-  }
-  .sticky.is-sticky {
     width: 0px;
   }
 }
