@@ -1,0 +1,64 @@
+
+</div></div>
+
+<div class="row">
+    <div class="col-sm-6">
+       <a href="chapter29.html.html">
+        <img src="images/Previous Chapter Button.png" onmouseover="this.src='images/Previous Chapter Button Hover.png'" onmouseout="this.src='images/Previous Chapter Button.png'" width="300" valign="middle" align="right">
+       </a>
+    </div>
+    <div class="col-sm-6">
+       <a href="<next-chapter>.html">
+        <img src="images/Next Chapter Button.png" onmouseover="this.src='images/Next Chapter Button Hover.png'" onmouseout="this.src='images/Next Chapter Button.png'" width="300" valign="middle">
+       </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+        <div align="middle">
+            <div class="images-padchapterbottom">
+                <img src="images/LineBreakFounder.png" height="100px" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+      
+<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+  <img src="images/RightSideArtElongated.png" width="100%">
+</div>
+</div>
+</div>  
+</div>
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Initialize Bootstrap functionality -->
+<script>
+// Initialize tooltip component
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+// Initialize popover component
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
